@@ -1,0 +1,19 @@
+h1{
+font-family: time news romance;
+}
+
+/** large device */
+@media (min-width:1000px){
+h1{
+  color: violet;
+  text-align: center;
+  background-color:#8FBC8F;
+}
+}
+/** medium device */
+@media (max-width:999px){
+  h1{
+    color: #2F4F4F;
+    text-align: center;
+    background-color:#DCDCDC;
+    
